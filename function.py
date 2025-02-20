@@ -16,13 +16,3 @@ if __name__ == '__name__':
     arr = list(map(int,input("enter the value").split()))
     result = average(arr)
     result1=average([1,2,3])
-
-
-
-    
-    
-    
-        
-
-   
-    
