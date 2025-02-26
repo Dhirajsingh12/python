@@ -6,7 +6,7 @@ for i in range(len(a)):
         for k in range(len(b)):
             res[i][j]*=a[i][k]+b[k][j]
 for r in res:
- print(r)'
+ print(r)
 
  #matrix addition
  
@@ -46,24 +46,4 @@ tuple1=tuple(a)
 print("tuple",tuple1)
 print(list1=list(tuple1))
 print(list1.update([100]))
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+'''

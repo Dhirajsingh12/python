@@ -5,12 +5,9 @@ def average(array):
 def addition(array):
    # write your code
    my_set = set(array)
-def add_an_elemrnt(array)
-arr.add(d)
-print(arr)                                                                                                                                                      
-    
-        
-        
+def add_an_elemrnt(array):
+    arr.add()
+    print(arr)                                                                                                                                                          
 if __name__ == '__name__':
    # n=int(input())
     arr = list(map(int,input("enter the value").split()))
