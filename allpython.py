@@ -1,6 +1,3 @@
-
-# 1. Python program to Swap Two Variables.
-
 x = 10
 y = 50
 temp = x
@@ -9,7 +6,7 @@ y = temp
 
 print("Value of x:", x)
 print("Value of y:", y)
-#
+
 x=10
 y=50
 print=("print befor swapping")
@@ -17,30 +14,12 @@ print=(x,y)
 x,y=y,x
 print=("after swapping x",x,"after swapping y",y)
 
-
-
-
-
-# 2.Python Program to Genrate a Random Numaber.
-
-# import random
-#num = random.random()
-#print(num)
-
-
-
-
-# 3.Python Program to Convert Kilometers to Miles.
-
-
-# 4. Python Program to Convert Celsius to Fahrenheit.
 celsius = 37.5
 
 fahrenheit = (celsius * 1.8) + 32
 print('%0.1f degree Celsius is equal to %0.1f degree Fahrenheit' %(celsius,fahrenheit))
 
 
-# 5. Python Program to Check if a Number is Positive, Negative or 0.
 
 num = float(input("Enter a number: "))
 if num > 0:
@@ -50,16 +29,12 @@ elif num == 0:
 else:
    print("Negative number")
 
-
-
-# 6. Python Program to Check if n Number is Odd or even.
 num= int(input("enter the number"))
 if num % 2==0:
    print("number is even")
 else:
    print("number is odd")
 
-# Python program to check if year is a leap year or not
 
 year = 2000
 
@@ -74,11 +49,7 @@ elif (year % 4 ==0) and (year % 100 != 0):
 
 else:
     print("{0} is not a leap year".format(year))
-    
-    
-    
-    # 
-  # Python program to find the largest number among the three input numbers
+   
 
 num1 = 10
 num2 = 14
@@ -95,10 +66,6 @@ print("The largest number is", largest)
 
 
 
-
-
-
-# Program to check if a number is prime or not
 
 num = 29
 flag = False
@@ -117,11 +84,7 @@ elif num > 1:
     else:
         print(num, "is a prime number")
         
-        
-        
-        
-#
-# Python program to display all the prime numbers within an interval
+ 
 
 lower = 900
 upper = 1000
@@ -135,13 +98,7 @@ for num in range(lower, upper + 1):
                break
        else:
            print(num)
-           
-           
-           
-           
-           
-#
-# Python program to find the factorial of a number
+
 
 num = 7
 
@@ -156,21 +113,12 @@ else:
        factorial = factorial*i
    print("The factorial of",num,"is",factorial)
    
-   
-   
-   
-   
-   #Python Program to Display the multiplication Table.
 
 num = 12
 
 for i in range(1, 11):
    print(num, 'x', i, '=', num*i)
    
-   
-   
-   
-   #Python Program to Print the fabonacci sequence
 n = 10
 num1 = 0
 num2 = 1
@@ -184,9 +132,6 @@ while count <= n:
     next_number = num1 + num2
 print()
 
-
-
-#Python Program to Check Armstrong Number
 
 num = int(input("Enter a number: "))
 
@@ -202,10 +147,6 @@ if num == sum:
 else:
    print(num,"is not an Armstrong number")
 
-
-
-
-#Python Program to Find Armstrong Number in an Interval
 
 lower = 100
 upper = 2000
@@ -224,10 +165,7 @@ for num in range(lower, upper + 1):
 
    if num == sum:
        print(num)
-       
-   
-       
-# Python Program to find the sum of Natural Number  
+        
 
 num=int(input("enter the number"))
 
