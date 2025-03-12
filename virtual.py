@@ -165,7 +165,7 @@ def Take_query():
             speak("Logging out")
             os.system("shutdown -l")
 
-        elif "bye" in query:
+        elif "exit" in query:
             speak("Bye! Have a great day.")
             break
 
