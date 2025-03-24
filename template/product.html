@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>{{ product.name }} - Bolt</title>
+</head>
+<body>
+    <a href="/">← Back to Home</a>
+    <div class="product-detail">
+        <h1>{{ product.name }}</h1>
+        <img src="{{ url_for('static', filename='images/' + product.image) }}" alt="{{ product.name }}">
+        <p>Price: ${{ product.price }}</p>
+        <button>Add to Cart</button>
+    </div>
+</body>
+</html>

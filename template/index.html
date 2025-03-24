@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Bolt E-Commerce</title>
+</head>
+<body>
+    <h1>Welcome to Bolt E-Commerce</h1>
+    <div class="product-container">
+        {% for product in products %}
+        <div class="product-card">
+            <img src="{{ url_for('static', filename='images/' + product.image) }}" alt="{{ product.name }}">
+            <h2>{{ watch }}</h2>
+            <p>Price: ${{210 }}</p>
+            <a href="/product/{{ product.id }}">View Details</a>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
