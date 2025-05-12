@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-TOKEN = os.getenv("7704576811:AAFwO7usUDIfGsEwHOnMgxJpZdAjKxPpI9M")
+TOKEN = os.getenv("tokal number")
 ADMIN_ID = int(os.getenv("@QuizSutraBot", "0"))
 
 # Setup logging
