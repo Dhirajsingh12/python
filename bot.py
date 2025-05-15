@@ -2,7 +2,6 @@ import os
 import json
 import random
 import logging
-from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import (Updater, CommandHandler, CallbackContext,
                           MessageHandler, Filters, ConversationHandler)
 from dotenv import load_dotenv
